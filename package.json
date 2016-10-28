@@ -1,0 +1,30 @@
+{
+  "name": "jsant",
+  "version": "0.0.0",
+  "description": "programming ant ki with javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotterfriends/jsAnt.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "KI",
+    "artificial",
+    "intelligence",
+    "ant",
+    "simulator"
+  ],
+  "author": "André Tarnowsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lotterfriends/jsAnt/issues"
+  },
+  "homepage": "https://github.com/lotterfriends/jsAnt#readme",
+  "dependencies": {
+    "axel": "0.0.3"
+  }
+}
