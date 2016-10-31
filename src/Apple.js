@@ -48,7 +48,7 @@ class Apple extends NoneLivingObject {
             return;
         }
         if (isAntCarryingThisApple(ant)) {
-            this.carrier.splice(this.carrier.findIndex(currentAnt => currentAnt.birthday === ant.birthday), 1);
+            this.carrier.splice(this.carrier.findIndex(currentAnt => return currentAnt.birthday === ant.birthday), 1);
         } else {
             console.log('Konsistenzsfehler')
         }
